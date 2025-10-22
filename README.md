@@ -63,7 +63,7 @@ img2ascii_pro myphoto.jpg --html img.html
 ---
 يمكن استخدامه داخل كود بايثون مباشرة أيضًا:
 from PIL import Image
-from img2ascii_pro import *
+from image_to_ascii import PRESETS, image_to_ascii, ascii_to_html
 
 img = Image.open("photo.jpg")
 ascii_lines, _, _, _ = image_to_ascii(img, width=100, chars=PRESETS["block"])
