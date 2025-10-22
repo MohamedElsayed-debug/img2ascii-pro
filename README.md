@@ -19,12 +19,15 @@ pip install img2ascii-pro
 ---
 بعد التثبيت، يمكنك تشغيل المكتبة مباشرة من الطرفية بالأمر التالي:
 img2ascii_pro myphoto.jpg
+
 ---
 يمكنك تحديد عرض الصورة (العرض يؤثر على التفاصيل)
 img2ascii_pro myphoto.jpg --width 100
+
 ---
 الصورة الأصلية:
-![install](images/eagle.jpg)
+![install](images_ascii/eagle.jpg)
+
 ---
 المكتبة تحتوي على عدة أنماط جاهزة:
 
