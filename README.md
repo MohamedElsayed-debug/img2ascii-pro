@@ -31,25 +31,32 @@ img2ascii_pro myphoto.jpg --width 100
 realistic:شكل واقعي بدرجات كثيرة
 
 img2ascii_pro myphoto.jpg --preset realistic
-![install](images/realistic.png)
+![install](images_ascii/realistic.png)
 
 ---
 minimal: شكل بسيط جدًا
 img2ascii_pro myphoto.jpg --preset minimal
-![install](images/minimal.png)
+
+![install](images_ascii/minimal.png)
+
 ---
 block: الصورة أكثر وضوحًا وتشبه الصورة الأصلية جدًا
 img2ascii myphoto.jpg --preset block
-![install](images/block.png)
+
+![install](images_ascii/block.png)
+
 ---
 لعكس النصوص (مفيد للصور الداكنة):
 img2ascii_pro myphoto.jpg --invert
+
 ---
 يمكنك حفظ المخرجات في ملف نصي بدل عرضها في الترمنال:
 img2ascii_pro myphoto.jpg --outfile img.txt
+
 ---
 يمكنك حفظ المخرجات في ملف html بدل عرضها في الترمنال:
 img2ascii_pro myphoto.jpg --html img.html
+
 ---
 يمكن استخدامه داخل كود بايثون مباشرة أيضًا:
 from PIL import Image
